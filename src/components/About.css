@@ -1,0 +1,96 @@
+/* About.css */
+
+.about-page {
+  text-align: center;
+  padding: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+}
+
+h1 {
+  font-size: 45px;
+  color: #778DA9;
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #778DA9;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.about-content {
+  background-color: #1B263B;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.about-content p {
+  font-size: 16px;
+  color: #E0E1DD;
+  text-align: justify;
+}
+
+.team-member {
+  display: inline-block;
+  margin: 20px;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+  padding-bottom: 30px;
+}
+
+.team-member:hover {
+  transform: scale(1.1);
+}
+
+.team-member img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+.team-member:hover img {
+  transform: scale(1.1);
+}
+
+.team-member h3 {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #778DA9;
+}
+
+.team-member p {
+  font-size: 14px;
+  color: #E0E1DD;
+  background-color: #1B263B;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+/* Style the container for team members */
+.team-member-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Style the images in the team-member-container */
+.team-member-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Apply hover effect for team member images in the container */
+.team-member-container img:hover {
+  transform: scale(1.1);
+}

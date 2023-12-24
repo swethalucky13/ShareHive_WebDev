@@ -1,0 +1,105 @@
+.contact-page {
+  background-color: #0D1B2A;
+  color: #E0E1DD;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  text-align: center;
+  padding-top: 20px; /* Adjusted padding-top for a gap above the Contact Us form */
+}
+
+.contact-page h3 {
+  padding-top: 20px;
+  font-size: 35px;
+  text-align: center;
+  color: #E0E1DD;
+  margin-bottom: 10px;
+}
+
+.contact-page p {
+  font-size: 16px;
+  line-height: 2.5;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  text-align: center;
+  padding-top: 10px;
+  margin-bottom: 5px;
+}
+
+.label-text {
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 1px;
+  width: 200px; /* Adjusted width for better alignment */
+  display: inline-block;
+  vertical-align: top;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: #E0E1DD;
+}
+
+.contact-page input[type="text"],
+.contact-page textarea {
+  width: 300px; /* Adjusted width for better alignment */
+  outline-color: #778DA9;
+  padding: 0.5rem 1rem;
+  border: 1px solid #778DA9;
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 20px; /* Added margin to create a gap between input fields */
+}
+
+/* Enhanced button style */
+button {
+  width: 200px;
+  height: 40px;
+  background-color: #778DA9; /* Button color */
+  outline: none;
+  border: none;
+  color: #E0E1DD;
+  font-weight: bold;
+  border-radius: 20px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px; /* Add margin to create a gap */
+}
+
+button:hover {
+  background-color: #415A77; /* Hover color */
+  cursor: pointer;
+}
+
+.faq-section {
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.faq-item h2 {
+  font-size: 18px;
+  margin: 0;
+  padding: 10px;
+  background-color: #1B263B;
+  color: #E0E1DD;
+  border-radius: 5px; /* Rounded corners */
+}
+
+.faq-item p {
+  font-size: 16px;
+  margin: 0;
+  padding: 10px;
+  display: none;
+}
+
+.faq-item.active p {
+  display: block;
+  text-align: left;
+  padding-left: 30px;
+}

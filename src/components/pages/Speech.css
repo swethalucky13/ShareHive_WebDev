@@ -1,0 +1,74 @@
+/* styles.css */
+/* Add these styles to your external CSS file */
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto; /* Allow scrolling */
+    animation: colorChangeBackground 60s infinite linear;
+}
+
+@keyframes colorChangeBackground {
+    0% {
+        background-color: #121220;
+    }
+    25% {
+        background-color: #19252e;
+    }
+    50% {
+        background-color: rgb(23, 16, 31);
+    }
+    75% {
+        background-color: #1d172b;
+    }
+    100% {
+        background-color: #2b1a3d;
+    }
+}
+
+#language, #start, #stop {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+#language, #start, #stop {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#google_translate_element, #transcript {
+    margin: 10px;
+}
+#transcript {
+    width: 60%;
+    height: 150px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+    box-sizing: border-box; /* Add this to include padding and border in the width */
+    background-color: white;
+  }
+
+  button, select {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #201f1f;
+    color: rgb(247, 244, 244);
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark theme for buttons and selects */
+.dark-theme button, .dark-theme select {
+    background-color: #2b2b2b; /* Darker background color */
+    color: #fff; /* White text color */
+}
+
+
+button:hover, select:hover {
+    background-color: #2a2a3a;
+}
