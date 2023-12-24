@@ -6,12 +6,16 @@ experience. Whether you're brushing up on a new language, collaborating with
 international peers, or simply clarifying complex concepts, our voice assistance feature 
 is here to bridge language barriers effortlessly.
 
+Check the website here: https://share-hive.netlify.app/
+
 **Resolution:**
 To address the critical issue of language barriers in online study room platforms, we 
 propose the development and implementation of an innovative solution that integrates 
 a comprehensive voice assistance feature. This solution aims to foster inclusive, 
 effective, and collaborative learning experiences for students from diverse linguistic 
 backgrounds.
+
+Cypress is used testing the functionality of website.
 
 Steps to follow inorder to run the application:
 ------------------------------------------------
@@ -30,4 +34,4 @@ npm install axios,
 **Use the folowing command to run the program:**
 npm start
 
-Check the website here: https://share-hive.netlify.app/
+
