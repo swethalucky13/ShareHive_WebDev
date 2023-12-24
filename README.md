@@ -30,3 +30,4 @@ npm install axios,
 **Use the folowing command to run the program:**
 npm start
 
+Check the website here: https://share-hive.netlify.app/
